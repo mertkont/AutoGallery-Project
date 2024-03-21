@@ -1,0 +1,49 @@
+----------------------------------------------------------------------------------
+
+Claude kullanarak oluşturuldu.
+
+----------------------------------------------------------------------------------
+
+İlk Promptum: Merhaba Claude. Şu anda sen bir Web front-end geliştiricisisin ve Angular konusunda uzmansın.
+
+Şu an HTML, CSS ve JavaScript dillerinden ayrı ayrı şekilde faydalanarak bir araba galerisi websitesi geliştireceksin. Bu sitede yer yer fotoğraflar olacak, ancak sen fotoğraf oluşturmak zorunda değilsin. Sen fotoğrafların konumunu koyacağım yere örneğin "Tesla_Fotoğraf1" şeklinde işaret bırakırsan, ben sonradan bunların fotoğraflarını düzelterek ekleyebilirim. Ancak bu işareti bırakırken, burayı bir fotoğraf HTML'si olarak oluşsun. Benim dosyamın konumumu neresine yazmam gerektiğini anlayabileyim, dosyamın konumunu oraya yazar yazmaz herhangi bir kod yazmama gerek olmaksızın fotoğrafımı görebileyim. Sana düşen tek iş ise buraya belirteç olması açısından arabanın adını yazman. Ve çeşit çeşit araba eklemen güzel olacaktır.
+
+Yani demem o ki, bu website için içerik oluşturacaksın. Aynı zamanda site içi navigasyon barı, sitenin neresinde olduğunu belirten küçük bir yer belirteci eklemen de sitenin SEO çalışması açısından çok faydalı olacaktır. Bu küçük yer belirtecinden kastım ise breadcrumb. Bir breadcrumb eklemen, beni çok mutlu edecektir.
+
+Aynı zamanda sitenin navigasyon barına eklediğin şeylere tıklayınca, otomatikmen sayfada tıkladığımız yere inilsin. Mesela klasik arabalar diye bir yer eklersen, ben navigasyon bardan klasik arabalara tıkladığımda hemen sayfanın bu kısmına insin. Aşağı indiğimde de sağ aşağı tarafta beni hızlıca sayfanın en yukarısına çıkaracak olan küçük, yuvarlak bir düğme olsun. Bu düğmeye tıklamak, beni hemen sayfamın en üst tarafına çıkarsın. Ve soft bir şekilde çıkarsın, navigasyon bardaki şeylere tıkladığımızda nasıl soft bir şekilde ilgili yere ineceksek, aynı soft şekilde bu düğme de en yukarıya çıkarsın.
+
+Sayfaya eklediğin resimlerin üstüne mouse ile geldiğimde, resim hafifçe büyüsün. Mouse ile nereye geldiğimizi böylece kendimize belli edebilmiş olalım ve siteye güzel bir hava katmış olalım. Ancak çok fazla büyüme olmasın, ufak bi büyüme olsun. Bu ufak büyüme ile siteye bir tatlılık katabiliriz çünkü. Aynı zamanda resimlerin SEO çalışmasına uygunluğu açısından bir HTML alt tagi olsun, bunu da eklediğin araba ismine göre resme sen yazabilirsin.
+
+Son olarak ise siteye güzel bir logo verelim, bu logo ve site başlığını kendin uydurabilirsin. Buradaki logo, sitenin kendi logosu olsun. Yani biz bu siteyi açtığımızda, sekme kısmında gözükecek olan logo olsun. Bir de sitenin güzel bir başlığı olsun, bunu sen yapabilirsin. SEO'ya uygun bir başlık olsun, SEO'ya uygun bir meta description da olsun. Aynı fotoğraflarda bahsettiğim mantık gibi, logonun da kodunu sen kendin hazırla. Ben sadece fotoğraf konumumu oraya yazınca bana hemen sitemin tepesindeki logoyu böylelikle göstersin.
+
+Hedeflerin ve amaçlarından sana bahsetmeden önce, bu websiteyi HTML kısmında semantik etiketler ile oluşturmanı, yani header, main, nav, section, article, aside, footer ile oluşturmanı istiyorum. Ayrıca mobil, tablet, bilgisayar uyumlu şekilde CSS tasarımlarını yapman, sitenin kusursuzluğunu artıracaktır.
+
+Amacın, burada bahsettiğim her kurala uyarak bu websiteyi oluşturman şeklinde. Ayrıca tatlı bir site olmasını, birkaç tane araba kategorisi ve her kategori için birkaç tane araba örneği istiyorum. Navigasyon bar, breadcrumb'ından arabalarına ve footer'ına kadar her şey tatlı ve hoş bir şekilde gözüksün. Breadcrumb olması gerektiği yerde bir adet olursa yeterli. Ayrıca birçok arabamız da olsun, arabaların adını ve açıklamasını sen yaz, resimlerini eklemek bana kalsın. Sitedeki efektler hoş gözüksün ve site göze hitap eden bir site olsun. Böylece sitenin güzel ve dolu bir içeriği olsun.
+
+Sitenin hoş bir görüntüsü olsun. Mouse'u nereye getirirsek, mouse'un o an orada olduğunu gösteren parlamalar olsun. Sitedeki her şey göze hitap etsin.
+
+Sitede üstten aşağı indikçe menüler güzel bir şekilde ayrışsın. Mesela farklı araba kategorileri isimlerinin arka planları birbirinden farklı olsun. Bunu da hoş görüntü için yapacağız.
+
+Sitenin navigasyon barındaki menülerin üstüne gelince parlasınlar. Sitedeki her şey gözle görünür olsun, arkaplanla aynı renkte olan yazılar olmasın. Yazılar okunabilir olsun, ve site içinde farklı farklı renkler kullan ki her şey birbirinden ayırt edilebilir olsun. Mesela footer ile sağ alttaki yukarı çıkma düğmesi aynı renkte olmasın ki en aşağıya indiğimizde ayırt edilebilsin.
+
+Şimdi sırada hedeflerinden bahsedeceğim aşama var:
+
+1. HTML, JavaScript, CSS'yi ayrı ayrı kullanarak bu bahsettiğimiz siteyi oluşturman. Bu kodların hepsini bana vermeni istiyorum, böylelikle sitemizi tek seferde çalıştırabileceğiz.
+2. Site içeriğini bir yapay zeka olarak, bahsettiğim şekilde tamamen senin oluşturman.
+3. Bu bahsettiğim semantik etiketleri kullanarak bu yapıda siteyi oluşturman.
+4. Sitenin mobil, tablet, bilgisayar uyumlu olması.
+Tüm bunları yaparken, bahsettiğim şeylere göre yapmanı, yani bahsettiğim şeyleri unutmamanı istiyorum. İlk istediğim şey eğer beni anladıysan evet demeni, anlamadıysan da hayır demeni rica ediyorum.
+
+----------------------------------------------------------------------------------
+
+İkinci Promptum: Öyleyse hazırız demektir. Sana söylemiş olduğum her kurala ve yazıya uyacak şekilde kodumu şimdi bana verebilirsin.
+
+----------------------------------------------------------------------------------
+
+Üçüncü Promptum: Navigasyon menüsünü soldan değil de, sağdan olacak şekilde düzeltir misin?
+
+----------------------------------------------------------------------------------
+
+Dördüncü Promptum: Bu sayfa için footer kısmında bir adet article aside tagi taşıyan HTML kodu oluşturup bitirir misin? Bu kod, footer'ın yapısına uygun ve hoş görünümlü bir kod olsun. Açıklayıcı şeyler barındırsın.
+
+----------------------------------------------------------------------------------
